@@ -1,0 +1,403 @@
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.overlay{
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.5);
+    position:absolute;
+    z-index: 2;
+    top: 0%;
+    left: 0%;
+}
+
+.my-custom-class{
+    position: absolute;
+    z-index: 3;
+}
+
+.my-custom-class-slides{
+    position: absolute;
+    z-index: 5;
+}
+
+.my-custom-class-right{
+    position:absolute;
+    z-index: 2;
+    right: 0%;
+}
+
+.my-custom-class-center{
+    position:absolute;
+    z-index: 2;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    
+}
+
+.bg-img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0%;
+    background-image: url(https://i.imgur.com/gZ5HY0U.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-testimonials{
+    background-image: url(../public/pexels-sora-shimazaki.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.bg-testimonials-h3{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.bg-testimonials-p{
+    width: 100%;
+    color: black;
+
+}
+
+.bg-testimonials-slide{
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+width: 50%;
+padding: 45px 20px;
+}
+
+
+/* --------------------------------About-page */
+
+.h1-div{
+    margin-top: 10vmax;
+}
+.h1-div>h1{
+  font-size: 70px;
+}
+
+.col-6-left{
+    padding: 40px 150px;
+}
+
+.col-6-right{
+    margin-left: 50px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.col-6-right-bg-img-div{
+    width: 60%;
+    height: 85%;
+    border-radius: 20px;
+    background-color: rgba(155, 153, 153, 0.199);
+}
+
+
+.col-6-right-img-div{
+    position: absolute;
+    top: 3%;
+    left: 4%;
+    width: 65%;
+    height: 85%;
+    border-radius: 20px;
+    background-image: url(https://images.unsplash.com/photo-1518504208652-b1aa1f4ff3eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+.col-6-right-bg-lower-img-div{
+    position: absolute;
+    z-index: 9;
+    bottom: -7%;
+    right: 31%;
+    width: 18%;
+    height: 25%;
+    background-image: url(../public/backgroundloopimage.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.content-div-left{
+    padding: 40px 150px;
+}
+
+.content-div-right{
+    padding: 40px 0px ;
+}
+.content-div-right>p{
+    font-size: 20px;
+    width: 70%;
+}
+
+.image-div-left{
+    width: 90%;
+    height: 30vmax;
+}
+
+
+.image-div-right{
+    width: 90%;
+    height: 30vmax;
+}
+
+.partner-div{
+    width: 100%;
+    height: 40vmax;
+    padding: 20px 50px;
+}
+
+
+.partner-div>h1{
+    font-size: 50px;
+}
+
+
+.partner-div-image-content{
+    width: 70%;
+    height: 20%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leader-div{
+    height: 18vmax;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    padding: 10px ;
+    display: flex;
+}
+
+.leader-img{
+    height: 100%;
+    margin-left: 20px;
+}
+
+.leader-img-img{
+    width: 20vmax;
+    height: 80%;
+}
+
+.leader-img-img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.leader-img-content{
+    margin-top: 15px;
+}
+
+
+/* ----------------------------------------------portfolio */
+
+
+.headerdiv{
+    margin-top: 240px;
+    padding: 40px 150px;
+}
+
+
+.h1-portfolio{
+    font-size: 70px;
+    font-weight: 900;
+}
+
+
+
+.portfolio-div{
+    height: 25vmax;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    padding: 10px ;
+    display: flex;
+}
+
+.portfolio-img{
+    height: 100%;
+    margin-left: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.portfolio-img-img{
+    width: 25vmax;
+    height: 82%;
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.portfolio-img-img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio-img-content{
+    height: 30%;
+
+}
+
+
+/* -------------------------description-box */
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.404);
+}
+
+.description-box{
+    width: 50vmax;
+    padding: 30px ;
+    position: absolute;
+    top: 50%;
+    background-color: white;
+    border-radius: 20px;
+    left: 50%;
+    transform: translate(-50%,-40%);
+}
+
+.corssbtn{
+    position: absolute;
+    right: 10%;
+}
+
+/* ----------------------------------------------------contactUS */
+
+.headerdiv-contactUS{
+    margin-top: 140px;
+    padding: 40px 150px;
+}
+
+.mapdiv{
+    width: 100%;
+}
+
+.mapdiv>img{
+    width: 100%;
+}
+
+
+
+
+@media only screen and (max-width:1024px) {
+
+    .bg-testimonials-slide{
+        width: 100%;
+    }
+    .h1-div {
+        padding: 65px;
+    }
+    .h1-div>h1 {
+        font-size: 36px;
+    }
+    .col-6-left {
+        padding: 40px 75px;
+        width: 100%;
+    }
+    .aboutclass{
+        flex-direction: column;
+    }
+    .col-6-right{
+        width: 100%;
+    }
+    .content-div-right>p{
+        width: 100%;
+    }
+    .content-div-left{
+        width: 100%;
+        padding: 40px 25px ;
+    }
+    .aboutclass2{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .content-div-right{
+        width: 100%;
+    }
+    .aboutclass3{
+        display: none !important;
+    }
+    .partner-div{
+        display: none !important;
+    }
+    .aboutclass4{
+        display: none !important;
+    }
+    .about5{
+        flex-direction: column;
+    }
+    .carrier1{
+        flex-direction: column;
+    }
+    .carrier2{
+        width: 100%;
+    }
+    .description-box{
+        width: 85%;
+        padding: 25px;
+        top:65%;
+    }
+    .headerdiv{
+        margin-top: 0px;
+        padding: 40px 25px;
+    }
+    .portfolio1{
+        flex-direction: column;
+    }
+    .portfolio-img-img {
+        width: 100%;
+    }
+    .portfolio-div {
+        margin-top: 0px;
+    }
+    .portfolio3{
+        margin-top: 175vmax;
+    }
+    .headerdiv-contactUS{
+        margin-top: 0px;
+        padding: 40px 25px;
+    }
+    .contactus1{
+        flex-direction: column;
+        height: 80vmax;
+    }
+    .contactus2{
+        flex-direction: column;
+    }
+    .contactus3{
+        width: 100%;
+        padding: 10px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .bg-testimonials-slide{
+        width: 100%;
+    }
+
+}
